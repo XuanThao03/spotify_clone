@@ -11,6 +11,7 @@ import { useSupabaseClient } from "@supabase/auth-helpers-react";
 import { useUser } from "@/hooks/useUser";
 import { FaUserAlt } from "react-icons/fa";
 import toast from "react-hot-toast";
+import { styleText } from "util";
 
 interface HeaderProps {
   children: React.ReactNode;
